@@ -131,7 +131,7 @@ services:
       - 8890:8890
       - 3040:4040
     networks:
-      spark_net:
+      net_pet:
         ipv4_address: 172.28.1.12
 
   hue:
